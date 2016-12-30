@@ -35,7 +35,7 @@
 
 (deftask development []
   (task-options! cljs {:optimizations :none :source-map true}
-                 reload {:on-jsload 'efrisk.app/init})
+                 reload {:on-jsload 'edn-inspect.app/init})
   identity)
 
 (deftask dev

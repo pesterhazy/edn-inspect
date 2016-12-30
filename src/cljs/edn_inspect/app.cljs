@@ -1,4 +1,4 @@
-(ns efrisk.app
+(ns edn-inspect.app
   (:require [reagent.core :as reagent :refer [atom]]
             [cljs.reader :refer [read-string]]
             [datafrisk.core :as d]))
